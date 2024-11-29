@@ -1,0 +1,14 @@
+- defaultTab: summary
+  description: "My Job Description"
+  executionEnabled: true
+  id: "my_job"
+  loglevel: INFO
+  name: "My Job"
+  nodeFilterEditable: false
+  scheduleEnabled: true
+  sequence:
+    commands:
+      - exec: echo "Hello from Rundeck!"
+    keepgoing: false
+    strategy: node-first
+  uuid: "your-unique-job-id"
